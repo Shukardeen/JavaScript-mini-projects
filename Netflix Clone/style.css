@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.home {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.backgroundImg {
+    opacity: 0.3;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+body {
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    height: 55px;
+    margin-right: 200px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+
+#language {
+    width: 120px;
+    height:30px;
+    margin-right: 5px;
+    border-radius: 4px;
+    padding-right: 50px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.304);
+    color: white;
+}
+
+.signin {
+    height: 30px;
+    width: 70px;
+    margin-left: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.headings {
+    color: white;
+    position: relative;
+}
+
+.main {
+    color: white;
+    margin-top: 120px;
+    position: relative;
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 750;
+    font-style: normal;
+}
+
+.heading {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.cost {
+    margin-top: 15px;
+}
+
+.start {
+    margin-top: 30px;
+}
+
+#interface {
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email {
+    height: 50px;
+    width: 300px;
+    margin-right: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px #2d2d2d;
+    background-color: rgba(0, 0, 0, 0.304);
+    color: white;
+}
+
+#getstarted {
+    height: 54px;
+    width: 200px;
+    font-size: 18px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.bgGradient {
+    width: 100%;
+    height: 3px;
+    background-image: linear-gradient(90deg, rgba(170, 51, 71, 0.552), red, rgba(170, 51, 71, 0.552));
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    /* box-shadow: 0 5px 5px blue; */
+}
+
+.trending {
+    color: white;
+    margin: 50px 0 0 90px;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 560;
+    font-style: normal;
+}
+
+.region {
+    width: 120px;
+    height:40px;
+    margin: 20px 0 0 100px;
+    border-radius: 4px;
+    /* padding-right: 50px; */
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.304);
+    color: white;
+}
+
+.choice {
+    width: 120px;
+    height:40px;
+    margin: 20px 0 0 20px;
+    border-radius: 4px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.304);
+    color: white;
+}
+
+.cards {
+    width: 86%;
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 200px;
+    width: 150px;
+    margin: 30px 26px 30px 0;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.image:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.benefits {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0 0 90px;
+    flex-wrap: wrap;
+}
+
+.benefit {
+    width: 41%;
+    height: 170px;
+    padding: 10px;
+    border-radius: 15px;
+    background-image: linear-gradient(150deg, #192144, #1f101d);
+}
+
+.firstBenefit {
+    margin: 0 6px 6px 0;
+}
+
+.secondBenefit {
+    margin: 0 0 6px 6px;
+}
+
+.thirdBenefit {
+    margin: 6px 6px 0 0;
+}
+
+.fourthBenefit{
+    margin: 6px 0 0 6px;
+}
+
+.benefitHeading {
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;
+    margin: 10px;
+    font-style: normal;
+}
+
+.benefitPara {
+    color: white;
+    margin: 15px 0 0 10px;
+    opacity: 0.6;
+}
+
+.benefitIcon {
+    width: 50px;
+    position: relative;
+    left: 450px;
+    top: 20px;
+}
+
+.icon2 {
+    margin-top: 20px;
+}
+
+.faqs {
+    width: 86%;
+    display: flex;
+    margin: 30px 0 60px 90px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 7px;
+    color: white;
+    padding-left: 20px;
+    font-size: 23px;
+    background-color: #2d2d2d;
+    transition: 0.5s;
+}
+
+.faqIcon {
+    position: absolute;
+    right: 120px;
+    font-size: 35px;
+    font-weight: 100;
+    transition: 0.3s;
+}
+
+.rotate {
+    transform: rotate(45deg);
+}
+
+.faq:hover {
+    background-color: #474747;
+    cursor: pointer;
+}
+
+.answer {
+    color: white;
+    background-color: #2d2d2d;
+    font-size: 23px;
+    padding: 30px 30px 30px 20px;
+    margin: -5px 0 7px 0;
+    display: none;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.lowerEmail {
+    width: 400px;
+}
+
+.footer {
+    width: 86%;
+    margin: 50px 0 0 90px;
+}
+
+.footerHead {
+    color: white;
+    margin-bottom: 50px;
+    opacity: 0.6;
+}
+
+.linkHead {
+    opacity: 1;
+}
+
+.links {
+    font-size: 14px;
+    margin: 20px 0 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+a {
+    color: white;
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+.credit {
+    color: white;
+    opacity: 0.6;
+    margin-top: 50px;
+}
+
+.empty  {
+    width: 100%;
+    height: 100px;
+}
+
+body::-webkit-scrollbar {
+    width: 1vw;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: grey;
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #0b5ed7;
+    border-radius: 5px;
+    padding: 3px;
+}
