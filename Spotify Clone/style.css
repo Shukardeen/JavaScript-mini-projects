@@ -1,0 +1,444 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    margin: 0;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #000;
+    width: 340px;
+    height: 100vh;
+    border-radius: 0.5rem;
+    margin: 5px 2.5px 0 5px;
+}
+
+.main-content {
+    background-color: #121212;
+    flex: 1;
+    margin: 5px 5px 77px 2.5px;
+    border-radius: 0.5rem;
+    overflow: auto;
+}
+
+.music-player {
+    background-color: black;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+}
+
+.nav {
+    background-color: #121212;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 0.75rem;
+    height: 100px;
+}
+
+.nav-option {
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.25rem 0.75rem;
+}
+
+.nav-option:hover {
+    opacity: 1;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.nav-option i {
+    font-size: 1.25rem;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 0.5rem;
+    height: 100%;
+    margin-top: 5px;
+    /* margin-bottom: 77px; */
+    padding: 0.25rem 0.75rem;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lib-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lib-option img {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.icons {
+    font-size: 1.25rem;
+    display: flex;
+}
+
+.icons i {
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+
+.icons i:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.box {
+    background-color: #232323;
+    height: 8rem;
+    border-radius: 0.5rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.25rem 1.45rem;
+}
+
+.box-p1 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.box-p2 {
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
+.badge {
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    height: 2rem;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.box2 {
+    height: 10.3rem;
+}
+
+.sticky-nav img {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    padding-bottom: 1rem;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.sticky-nav-icons {
+    margin: 1rem 0 0 1rem;
+}
+
+.sticky-nav-icons img {
+    cursor: pointer;
+}
+
+.sticky-nav-options {
+    margin: 1rem 1rem 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky-nav-options i {
+    cursor: pointer;
+}
+
+.dark-badge {
+    color: white;
+    background-color: black;
+}
+
+.dark-badge i {
+    margin-right: 0.45rem;
+}
+
+.nav-items {
+    margin-right: 1rem;
+}
+
+h2 {
+    margin: 1.5rem 0 1rem 1rem;
+}
+
+.card {
+    height: 250px;
+    width: 150px;
+    border-radius: 0.5rem;
+    margin: 2rem 0 0.5rem 3rem;
+    padding: 0.95rem;
+    background-color: #232323;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.p1 {
+    font-weight: 700;
+}
+
+.p2 {
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+
+.trending-now .card {
+    display: inline-block;
+}
+
+.trending-now {
+    margin: 0;
+}
+
+.trending-now .card1 {
+    margin-left: 3rem;
+}
+
+.trending-now .card2 {
+    margin-left: 1.5rem;
+}
+
+.footer {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    height: 50%;
+    width: 90%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.line i {
+    font-size: 0.75rem;
+    margin-right: 0.25rem;
+}
+
+.album {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls {
+    width: 25%;
+}
+
+.player-controls {
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.player-control-icon {
+    height: 1rem;
+    width: 1rem;
+    opacity: 0.7;
+    margin: 0 1rem 0 1rem;
+}
+
+.player-control-icon:hover {
+    opacity: 1;
+}
+
+.player-control-icon3 {
+    height: 1.75rem;
+    width: 1.75rem;
+    margin: 0 0.5rem 0 0.5rem;
+    transition: 0.5s;
+}
+
+.player-control-icon3:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.player-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playback-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.progress-bar {
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.25rem;
+    margin: 0 10px 0 10px;
+}
+
+.progress-bar::-webkit-slider-thumb {
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+.album .picture {
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.album .picture img {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.album .caption {
+    margin-left: 0.5rem;
+}
+
+.caption-p1 {
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.caption-p2 {
+    font-size: 0.65rem;
+    margin-top: -7px;
+}
+
+.album-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.album-icon1 {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 0.25rem;
+    cursor: pointer;
+}
+
+.album-icon2 {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 0.25rem;
+    cursor: pointer;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls .control-icon {
+    height: 2rem;
+    width: 2rem;
+    opacity: 0.7;
+}
+
+.controls .control-icon:hover {
+    opacity: 1;
+}
+
+.controls .control-icon2 {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin: 0 0.35rem 0 0.35rem;
+    opacity: 0.5;
+}
+
+.controls .control-icon2:hover {
+    opacity: 0.7;
+}
+
+.controls .mic {
+    width: 1.5rem;
+}
+
+.audio-control {
+    width: 30%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.audio-control::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.25rem;
+    margin: 0 10px 0 10px;
+}
+
+.audio-control::-webkit-slider-thumb {
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: -6px;
+}
